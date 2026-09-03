@@ -1,0 +1,13 @@
+{
+  "name": "devops-capstone-todo",
+  "version": "1.0.0",
+  "description": "Capstone to-do app for the DevOps Essentials course — containerized in Lecture 3, given a database in Lecture 4, automated in Lecture 5, deployed to AWS in Lecture 6, provisioned via Terraform in Lecture 7, and run on Kubernetes with monitoring in Lecture 8.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.23.0"
+  }
+}
